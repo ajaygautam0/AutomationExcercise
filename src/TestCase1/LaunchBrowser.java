@@ -12,7 +12,7 @@ public class LaunchBrowser {
 		
 	WebDriver driver = new ChromeDriver();
 
-	driver.manage().window().maximize();
+	driver.manage().window().maximize();  
         
 	  //Lunch Browser
 	driver.get("https://automationexercise.com/");
